@@ -9,6 +9,10 @@
 .user-unrated {color:#000000;}
 .user-admin {color:#C000C0;}
 
+/* ナビゲーションと他の要素が重ならないように padding 情報をいれる
+-> Javascript で動的に対応することにします
+body{padding-top: 70px;} */
+
  .mask_100{background-color:#CEF6CE; font-weight:bold; text-align:center;}
  .mask_200{background-color:#CEF6CE; font-weight:bold; text-align:center;}
 
