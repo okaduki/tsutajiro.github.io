@@ -17,24 +17,8 @@ $(window).on("load", function() {
             }
         }
     });
+});
 
-    /*
-    // 曲hoverでライナーノーツを表示
-    if(w >= 680) {
-        $(".note_contents").show();
-        $(".list td").hover(
-            function() {
-                var idname = $(this).attr("id");
-                $("#comment_" + idname).stop().show(300, "easeOutExpo");
-            },
-            function() {
-                var idname = $(this).attr("id");
-                $("#comment_" + idname).stop().hide(300, "easeOutExpo");
-            }
-        );
-    }
-    else {
-        $(".note_contents").hide();
-    }
-    */
+$(document).ready(function() {
+    $("#mainconttable").tablesorter();
 });
