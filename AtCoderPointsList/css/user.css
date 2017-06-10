@@ -13,10 +13,28 @@
 -> Javascript で動的に対応することにします
 body{padding-top: 70px;} */
 
- .mask_100{background-color:#CEF6CE; font-weight:bold; text-align:center;}
- .mask_200{background-color:#CEF6CE; font-weight:bold; text-align:center;}
+/* header (タイトル部分) */
+.page-header {
+    border-bottom: 1px solid #eee;
+}
 
- .mask_300{background-color:#CEECF5; font-weight:bold; text-align:center;}
+.description {
+    font-size:1.3em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.header-form {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+ .mask_100{background-color:#E6E6E6; font-weight:bold; text-align:center;}
+
+ .mask_200{background-color:#CCC3A1; font-weight:bold; text-align:center;}
+
+ .mask_300{background-color:#CEF6CE; font-weight:bold; text-align:center;}
+
  .mask_400{background-color:#CEECF5; font-weight:bold; text-align:center;}
 
  .mask_500{background-color:#CED8F6; font-weight:bold; text-align:center;}
